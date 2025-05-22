@@ -34,9 +34,9 @@ body {
 }
 
 .navegacion-principal {
-  padding: 1rem;
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .navegacion-principal a {
@@ -46,6 +46,11 @@ body {
   font-weight: bold;
 }
 
-.navegacion-principal a:hoover {
+.navegacion-principal a:hover {
   background-color: var(--primario);
+  padding: 1rem;
+  color: var(--oscuro);
+}
+
+@media (min-width: 768px) {
 }
